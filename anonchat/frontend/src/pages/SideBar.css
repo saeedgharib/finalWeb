@@ -1,0 +1,55 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.sidebar_logo {
+    color: #fff;
+        display: grid;
+        place-items: center;
+        height: 120px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'Mochiy Pop P one', sans-serif;
+    }
+
+.sidebar_menu {
+        position: relative;}
+
+.sidebar_menu_item {
+            display: flex;
+            align-items: center;
+            place-content: flex-start;
+            padding: 1rem 3rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #555555;
+            color: #fff;
+            transition: color 0.3s ease-in-out;
+}
+    .active {
+                color: #fff;
+            }
+            .item {
+                margin-right: 1rem;
+            }
+                i {
+                    font-size: 1.75rem;
+                }
+ul{
+    list-style-type: none;
+    
+}
+Link{
+    
+    text-decoration: none;
+}
+.sidebar_menu_item:hover{
+    background-color: #308efe;
+}
+
+  
+    
